@@ -84,7 +84,7 @@ void display_maze(int x, int y)
 {
     for (int i = 0; i < M; i++) {
         for (int j = 0; j < N; j++) {
-            if (playground[j][i].type == stone)
+            if (playground[j][i].isWall)
                 cout << "*";
             else if (j == x && i == y)
                 cout << "O";
