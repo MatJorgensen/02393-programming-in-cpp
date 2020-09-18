@@ -8,9 +8,9 @@ int main()
     int n, sum = 0;
 
     cin >> n;
-    for (int i = 0; i <= n; i++)
-        sum += i;
-    cout << sum << endl;
+    // using formula 0 + 2 + ... + n = n/2 * (n/2 + 1)
+    cout << n/2 * (n/2 + 1) << endl;
 
     return 0;
 }
+

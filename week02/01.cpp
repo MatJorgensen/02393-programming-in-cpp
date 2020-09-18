@@ -5,12 +5,11 @@ using std::cin;
 
 int main()
 {
-    int n, sum = 0;
+    int n;
 
     cin >> n;
-    for (int i = 0; i <= n; i += 2)
-        sum += i;
-    cout << sum << endl;
+    // using formula 1 + 2 + ... + n = n * (n + 1)/2
+    cout << n * (n + 1) / 2 << endl;
 
     return 0;
 }
