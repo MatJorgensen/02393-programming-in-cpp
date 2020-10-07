@@ -4,3 +4,5 @@
 
 
 Unless explicitly named, e.g. main.cpp, shape.cpp and shape.h, to follow a specific structure, exercise files are named 01.cpp, 02.cpp, etc. corresponding to the order of the exercises.
+
+To compile stand-alone .cpp files execute command `g++ <filename>.cpp -o out`, and to compile multiple files execute `g++ *.cpp -o out`. Execute command (on Linux) `./out` to run the programs. 
