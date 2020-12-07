@@ -2,7 +2,9 @@
 #define EX01_LIBRARY_H_
 
 #include <vector>
+
 #include <string>
+
 using namespace std;
 
 unsigned int ** createMatrix(int n, int m);
@@ -11,6 +13,6 @@ void fillWhite(unsigned int ** A, int n, int m);
 void lighten(unsigned int ** A, int n, int m);
 void darken(unsigned int ** A, int n, int m);
 void printMatrix(unsigned int ** A, int n, int m,
-			string description);
+    string description);
 
 #endif /* EX01_LIBRARY_H_ */
